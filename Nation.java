@@ -2,7 +2,7 @@ public class Nation {
 	public int Consumer_Goods = 0;
 	public int Military_Factories = 0;
 	public int Civilian_Factories = 0;
-	public int Naval_Dockyards
+	public int Naval_Dockyards = 0;
 	public double Construction_Bonus = 0;
 	public double Civilian_Bonus = 0;
 	//Constructors
