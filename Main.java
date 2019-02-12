@@ -9,14 +9,23 @@ class MakeFactory {
 		System.out.println("Enter starting Factory count");
 
 		Factory_Count(scanner.nextInt()); // Read user input
-		System.out.println("The total factory count is: " + GetTotalFactories());  // Output user input 
+		
 		
 		System.out.println("What is the cost of a factory?");
 		int Cost = scanner.nextInt();
 		//Send this to the proper place
 		
 		System.out.println("What is consumer goods?");
-		int 
+		Nation.SetConsumerGoods(scanner.nextInt());
+		
+		System.out.println("How many Military Factories are there?");
+		Nation.SetMilitaryFactories(scanner.nextInt());
+		
+		System.out.println("How many Civilian Factories are there?");
+		Nation.SetCivilianFactories(scaner.nextInt());
+		
+		System.out.println("How many Naval Dockyards are there?")
+		System.out.println("The total factory count is: " + GetTotalFactories());  // Output user input 
 }
 }
 public class Line {
