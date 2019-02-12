@@ -28,4 +28,20 @@ public class Nation {
 	public int GetConsumerGoods(){
 		return Consumer_Goods;
 	}
-	public int GetMilitaryFactories
+	public int GetMilitaryFactories(){
+		return Military_Factories;
+	}
+	public int GetCivilianFactories(){
+		return Civilian_Factories;
+	}
+	public int GetNavalDockyards(){
+		return Naval_Dockyards();
+	}
+	public double GetConstructionBonus(){
+		return Construction_Bonus;
+	}
+	public double GetCivilianBonus(){
+		return Civilian_Bonus;
+	}
+	
+}
