@@ -3,6 +3,7 @@ public class Nation {
 	public int Military_Factories = 0;
 	public int Civilian_Factories = 0;
 	public int Naval_Dockyards = 0;
+	public int Infrastructure_Level = 0;
 	public double Construction_Bonus = 0;
 	public double Civilian_Bonus = 0;
 	//Constructors
@@ -17,6 +18,9 @@ public class Nation {
 	}
 	public SetNavalDockyards (int a){
 		Naval_Dockyards = a;
+	}
+	public SetInfrastructureLevel(int a){
+		Infrastructure_Level = a;
 	}
 	public SetConstructionBonus (double a){
 		Construction_Bonus = a;
@@ -36,6 +40,9 @@ public class Nation {
 	}
 	public int GetNavalDockyards(){
 		return Naval_Dockyards();
+	}
+	public int GetInfrastructureLevel(){
+		return Infrastructure_Level;
 	}
 	public double GetConstructionBonus(){
 		return Construction_Bonus;
